@@ -1,0 +1,5 @@
+Dependencies for Project 'Blink', Target 'Blink': (DO NOT MODIFY !)
+F (.\startup.s)(0x579BC09D)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Luminary--pd "__UVISION_VERSION SETA 521"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Blink.c)(0x57FE695C)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\Inc\Luminary-D__UVISION_VERSION="521" -Drvmdk -DPART_LM4F120H5QR-o .\blink.o --omf_browse .\blink.crf --depend .\blink.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE973E)
+I (C:\Keil_v5\tm4c123gh6pm.h)(0x57F81C03)
