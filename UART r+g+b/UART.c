@@ -4,7 +4,12 @@
 // Program for set connection via UART
 
 /*
-PF3 as output, connected to LED
+PF1, PF2, PF3 as output, connected to LED
+When press on computer keyboard 
+	r - turn on LED red
+	g- turn on LED green
+	b - turn on LED blue
+
 
 All devices are on board TIVA C EK-TM4C1234GXL
 */
@@ -122,7 +127,7 @@ UART0_LCRH_R = (0x3<<5);
 //5. Configure the UART clock source by writing to the UARTCC register.
 UART0_CC_R = 0x0;
 
-//6. Optionally, configure the µDMA channel (see “Micro Direct Memory Access (µDMA)” on page 585)
+//6. Optionally, configure the ÂµDMA channel (see â€œMicro Direct Memory Access (ÂµDMA)â€ on page 585)
 //and enable the DMA option(s) in the UARTDMACTL register.
 
 
